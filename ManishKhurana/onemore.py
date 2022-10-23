@@ -17,7 +17,7 @@ def positionOfSensor(x,y,number,totalSensors , average):
         x=round(x,2)
         y=round(y,2)
         sensorPosition=[x,y]
-        print("This is for Sensor" ,number ,"at position ",sensorPosition, " :")
+        print("This is for Sensor" ,number ,"at position ",(sensorPosition[0],sensorPosition[2]), " :")
         days = int(input("Enter the number of days for the readings: "))
         number+=1
         readingsOfCO(average,days,number,totalSensors)
