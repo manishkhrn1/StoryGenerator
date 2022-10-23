@@ -14,9 +14,9 @@ def askForSensor(number,totalSensors):
         numberOfSensor=str(input("Enter the number of sensors deployed across Sheridan Campus: "))   # we declared a variable for number of sensors we wanna input
     totalSensors= int(numberOfSensor)
 
-    positionOfSensor(x,y,number,totalSensors,average)
+    positionOfSensor()
 
-def positionOfSensor(x,y,number,totalSensors , average): 
+def positionOfSensor(): 
     for number in range (1,totalSensors+1):
         x=random.uniform(0.00,100.00)
         y=random.uniform(0.00,100.00)
@@ -60,11 +60,11 @@ def readingsOfCO(average,days,number,totalSensors):
     averageOfReadings(days,number,average,totalSensors)
             #sumofCO = sumOfCO + CO
 
-x=int
-y=int
-average=[]
-number = 0
-totalSensors=0
+#x=int
+#y=int
+#average=[]
+#number = 0
+#totalSensors=0
 running=True
 ask = True
 while running!=False:
