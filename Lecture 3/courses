@@ -1,0 +1,6 @@
+Courses = ["Eng109" , "SI110" , "Info667"]
+
+if("SI106" in Courses):
+    print("You can Apply to SI")
+else:
+    print("Take SI106")

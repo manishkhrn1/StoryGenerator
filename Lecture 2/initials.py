@@ -1,0 +1,28 @@
+import turtle
+windowTurtle= turtle.Screen()
+windowTurtle.bgcolor("light blue")
+
+lol = turtle.Turtle()
+lol.color("green")
+lol.left(80)
+lol.forward(70)
+lol.right(150)
+lol.forward(40)
+lol.left(150)
+lol.forward(40)
+lol.right(150)
+lol.forward(70)
+
+rofl = turtle.Turtle()
+rofl.color("red")
+rofl.forward(80)
+rofl.left(90)
+rofl.forward(70)
+rofl.backward(35)
+rofl.right(45)
+rofl.forward(45)
+rofl.back(45)
+rofl.right(60)
+rofl.forward(45)
+
+windowTurtle.exitonclick()
