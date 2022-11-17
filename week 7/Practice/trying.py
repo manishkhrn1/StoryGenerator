@@ -1,3 +1,4 @@
+
 import random
 
 def askForSensor(number,totalSensors):
@@ -6,6 +7,12 @@ def askForSensor(number,totalSensors):
     print("***********************************************************************************")
     print()
     numberOfSensor=str(input("Enter the number of sensors deployed across Sheridan Campus: "))
+    while numberOfSensor.isdigit():
+        if numberOfSensor.isdigit()==0:
+            numberOfSensor=str(input("Enter the number of sensors deployed across Sheridan Campus: ")) 
+        else:
+            break
+
     while not numberOfSensor.isdigit():
         print()
         print("please enter a numerical value greater than 0")

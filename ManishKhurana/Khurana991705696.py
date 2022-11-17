@@ -75,6 +75,7 @@ while running!=False:                                               #We started 
             askForSensor(number,totalSensors)
 
         elif cont.lower() in ['n' ,"no"]:
+            print()
             print("Exiting the program..........")
             running=False 
             ask=False
